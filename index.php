@@ -127,7 +127,7 @@ $primeiroNome = 'Alessandro';
 $ultimoNome = 'Kobs';
 
 
-echo 'Hello World! <pt />';
+echo 'Hello World!';
 echo $primeiroNome, ' ';
 echo $ultimoNome; 
 */

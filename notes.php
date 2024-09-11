@@ -14,3 +14,11 @@
     -- Variáveis não podem começar com um número
     -- Letras maiúsculas e minúsculas são diferenciadas (case-sensitive)
 */
+
+
+/*
+  AULA 02 - CONCATENAÇÃO DE STRINGS
+ 
+    Já tinha conhecimento sobre o assunto, sem anotações e exercícios
+
+*/
