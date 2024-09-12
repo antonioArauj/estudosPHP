@@ -1,8 +1,5 @@
 <?php
-
-//AQUI FICAM EXERCICIOS QUE PONHO EM PRATICA DURANTE A AULA
-
-// OBS: Todas anotaçoes abaixo são de um curso anterior, os exercicios do novo curso começam a partir da linha 118.
+// OBS: Todas anotaçoes abaixo são de um curso anterior. 
 
 /*
  $ingredientes = [
@@ -114,21 +111,3 @@
 
  echo $posicao;
 */
-
-
-
-// NOVO CURSO
-
-
-/*
-AULA 01
-
-$primeiroNome = 'Alessandro'; 
-$ultimoNome = 'Kobs';
-
-
-echo 'Hello World!';
-echo $primeiroNome, ' ';
-echo $ultimoNome; 
-*/
-
