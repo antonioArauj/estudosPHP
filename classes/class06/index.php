@@ -7,7 +7,7 @@ $amountTickets = 200;
 
 
 function sum($n1, $n2){
-    $total = $n1 + $n2 / 2;
+    $total = ($n1 + $n2) / 1.5;
     return $total;
 };
 
