@@ -1,22 +1,51 @@
 
 ---
-
 # Evolução no Estudo de PHP
 
-Este repositório foi criado para acompanhar e registrar minha evolução nos estudos de PHP. Todos os exercícios e exemplos estão concentrados em um único arquivo, onde cada nova funcionalidade ou conceito aprendido é marcado com um comentário indicando a aula correspondente.
+Este repositório foi criado para documentar e acompanhar minha evolução nos estudos de PHP. Cada aula possui sua própria pasta, onde os exercícios e anotações são organizados de forma clara e eficiente. 
 
-## Executando o projeto
+## Estrutura do Repositório
 
-Para rodar o projeto localmente, basta utilizar o comando abaixo no terminal:
+Cada aula está contida em uma pasta nomeada como `classXX`, onde `XX` representa o número da aula. Dentro de cada pasta, você encontrará dois arquivos principais:
 
-```bash
-cd classes && cd class01 && php -S localhost:8080
-```
+- **index.php**: Contém os exercícios e exemplos práticos da aula.
+- **notes.md**: Contém as anotações e observações importantes sobre os conceitos aprendidos na aula.
 
-Isso irá te direcionar até o arquivo desejado e iniciar um servidor PHP local que pode ser acessado via navegador em `http://localhost:8080`.
+## Executando o Projeto
 
-OBS: alterar o número de class para o arquivo desejado. 
+Para rodar o projeto localmente, siga os passos abaixo:
+
+1. Acesse o diretório da aula desejada:
+
+   ```bash
+   cd classes && cd classXX
+   ```
+
+   Substitua `XX` pelo número da aula que você quer acessar.
+
+2. Inicie um servidor PHP local com o comando:
+
+   ```bash
+   php -S localhost:8080
+   ```
+
+3. Abra o navegador e acesse o endereço:
+
+   ```
+   http://localhost:8080
+   ```
+
+Agora você poderá visualizar e interagir com os exemplos e exercícios diretamente no navegador.
 
 ---
 
-Simples e organizado para acompanhar o progresso!
+## Observações
+
+- Certifique-se de alterar o número de `classXX` conforme a aula que você deseja executar.
+- As anotações em `notes.md` são importantes para relembrar detalhes e conceitos abordados em cada aula.
+
+---
+
+Simples, organizado e prático para acompanhar o progresso nos estudos!
+
+---
