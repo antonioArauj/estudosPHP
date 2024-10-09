@@ -106,6 +106,7 @@ function caculateValue($purchase){
         $finalValue = $purchase['value'] - ($purchase['value'] / 100 * $discount);
         return "Olá, você recebeu um desconto de 10% e o valor ficou $finalValue";
     }
+    return "Sua compra deu {$purchase['value']}";
 };
 
 echo caculateValue($purchase); 
