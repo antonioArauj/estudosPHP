@@ -62,19 +62,14 @@ $guest = [
         'accompanied' => false
 ];
 
-function validateGuestInformation($guest){
-    if( $guest['age'] >= 18 ){
+function validateGuestInformation($guest, $accompanied){
+    if( $guest >= 18 || $accompanied === true){
        return 'Seja bem vindo a festa'; 
     };
-    
-    if($guest['age'] < 18 && $guest['accompanied'] === true){
-        return 'Seja bem vindo a festa';
-    }
     return 'Você não pode entrar';
 }; 
 
-
-echo validateGuestInformation($guest); 
+echo validateGuestInformation($guest['age'], $guest['accompanied']); 
 
 echo '<br />';
 echo '<br />';
@@ -90,23 +85,26 @@ echo '<br />';
 
 
 $purchase = [
-    'value' => 190.00,
+    'value' => 149,
     'VIP' => false,
 ]; 
 
-function caculateValue($purchase){
-    if($purchase['value'] >= 200.00 || $purchase['VIP'] === true){
+function calculateValue($purchase, $vip){
+    $message = "Sua compra deu {$purchase}";
+
+    if($purchase >= 200.00 || $vip === true){
         $discount = 20.00;
-        $finalValue = $purchase['value'] - ($purchase['value'] / 100 * $discount);
-        return "Olá, você recebeu um desconto de 20% e o valor ficou $finalValue"; 
+        $finalValue = $purchase - ($purchase / 100 * $discount);
+        $message =  "Olá, você recebeu um desconto de 20% e o valor ficou $finalValue"; 
     };
 
-    if($purchase['value'] >= 150.00 || $purchase['value'] <= 200.00){
+    if($purchase >= 150.00 && $purchase <= 200.00){
         $discount = 10.00;
-        $finalValue = $purchase['value'] - ($purchase['value'] / 100 * $discount);
-        return "Olá, você recebeu um desconto de 10% e o valor ficou $finalValue";
+        $finalValue = $purchase - ($purchase / 100 * $discount);
+        $message = "Olá, você recebeu um desconto de 10% e o valor ficou $finalValue";
     }
-    return "Sua compra deu {$purchase['value']}";
+
+    return $message;
 };
 
-echo caculateValue($purchase); 
+echo calculateValue($purchase['value'], $purchase['VIP']); 
