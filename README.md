@@ -6,7 +6,7 @@ Este repositório foi criado para documentar e acompanhar minha evolução nos e
 
 ## Estrutura do Repositório
 
-Cada aula está contida em uma pasta nomeada como `classXX`, onde `XX` representa o número da aula. Dentro de cada pasta, você encontrará dois arquivos principais:
+Cada módulo está contido em uma pasta nomeada como ModuleXX, onde XX representa o número do módulo. Dentro de cada módulo, há várias pastas de aulas (classXX), com o seguinte conteúdo:
 
 - **index.php**: Contém os exercícios e exemplos práticos da aula.
 - **notes.md**: Contém as anotações e observações importantes sobre os conceitos aprendidos na aula.
@@ -18,10 +18,10 @@ Para rodar o projeto localmente, siga os passos abaixo:
 1. Acesse o diretório da aula desejada:
 
    ```bash
-   cd classes && cd classXX
+   cd ModuleXX && cd classXX
    ```
 
-   Substitua `XX` pelo número da aula que você quer acessar.
+   Substitua XX pelo número do módulo e da aula que você quer acessar.
 
 2. Inicie um servidor PHP local com o comando:
 
@@ -41,7 +41,7 @@ Agora você poderá visualizar e interagir com os exemplos e exercícios diretam
 
 ## Observações
 
-- Certifique-se de alterar o número de `classXX` conforme a aula que você deseja executar.
+- Certifique-se de alterar os números de ModuleXX e classXX conforme o módulo e a aula que você deseja executar.
 - As anotações em `notes.md` são importantes para relembrar detalhes e conceitos abordados em cada aula.
 
 ---
