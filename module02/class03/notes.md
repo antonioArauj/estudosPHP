@@ -1,0 +1,1 @@
+number_format - formata um número com milhares agrupados e define a quantidade de casas decimais. É útil para exibir números de maneira legível. 
