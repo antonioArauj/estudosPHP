@@ -5,7 +5,7 @@ return [
         [
             'name' => 'João Silva',
             'age' => 20,
-            'sex' => 'M',
+            'gender' => 'M',
             'monthlySalary' => 5500.03,
             'annualSalary' => null,
             'jobStatus' => true,
@@ -15,13 +15,13 @@ return [
         [
             'name' => 'Ana Paula',
             'age' => 30,
-            'sex' => 'F',
-            'monthlySalary' => 10000.0,
+            'gender' => 'F',
+            'monthlySalary' => 10000.00,
             'annualSalary' => null,
             'jobStatus' => true,
             'yearsToRetire' => null,
             'skills' => 'React, Angular, Vue'
         ],
-        
+
     ]
 ];
