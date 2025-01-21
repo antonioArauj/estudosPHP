@@ -22,6 +22,5 @@ return [
             'yearsToRetire' => null,
             'skills' => 'React, Angular, Vue'
         ],
-
     ]
 ];
