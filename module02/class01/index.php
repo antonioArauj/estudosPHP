@@ -12,6 +12,8 @@
 <body>
 
  <h1>Olá <?php echo $name; ?></h1>
+
+//teste
     
 </body>
 </html>
